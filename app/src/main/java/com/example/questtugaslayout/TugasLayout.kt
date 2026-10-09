@@ -148,6 +148,13 @@ fun ProfileCard(
                     color = colorResource(alamatColorRes)
                 )
             }
+            Image(
+                painter = painterResource(logoRes),
+                contentDescription = null,
+                modifier = Modifier
+                    .size(dimensionResource(R.dimen.logo_size))
+                    .padding(dimensionResource(R.dimen.logo_padding))
+            )
         }
     }
 }
