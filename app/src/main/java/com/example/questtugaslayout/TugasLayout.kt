@@ -28,5 +28,10 @@ fun TugasLayout(modifier: Modifier = Modifier){
             fontSize = dimensionResource(R.dimen.text_prodi).value.sp,
             fontWeight = FontWeight.Bold
         )
+        Text(
+            text = stringResource(R.string.univ),
+            fontSize = dimensionResource(R.dimen.text_univ).value.sp,
+            fontWeight = FontWeight.Bold
+        )
     }
 }
