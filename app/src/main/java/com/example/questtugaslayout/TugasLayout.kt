@@ -13,6 +13,7 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.sp
 
@@ -37,5 +38,15 @@ fun TugasLayout(modifier: Modifier = Modifier){
         )
 
         Spacer(modifier = Modifier.height(dimensionResource(R.dimen.header_spacer)))
+
+        ProfileCard(
+            namaRes = R.string.syeera,
+            noHpRes = R.string.noHp_1,
+            alamatRes = R.string.alamatsyeera,
+            bgColorRes = R.color.card_4_bg,
+            namaFontFamily = FontFamily.Cursive,
+            noHpColorRes = R.color.purple_500,
+            alamatColorRes = R.color.white
+        )
     }
 }
