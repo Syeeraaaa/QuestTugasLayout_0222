@@ -94,12 +94,12 @@ fun TugasLayout(modifier: Modifier = Modifier){
 @Composable
 fun ProfileCard(
     namaRes: Int,
-    noHpRes: Int? = null,
+    noHpRes: Int,
     alamatRes: Int,
     bgColorRes: Int,
     logoRes: Int = R.drawable.logo_umy,
     namaFontFamily: FontFamily = FontFamily.Default,
-    noHpColorRes: Int? = null,
+    noHpColorRes: Int = R.color.coklat,
     alamatColorRes: Int = R.color.white
 
 ){
