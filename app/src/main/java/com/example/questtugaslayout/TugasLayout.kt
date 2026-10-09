@@ -48,5 +48,13 @@ fun TugasLayout(modifier: Modifier = Modifier){
             noHpColorRes = R.color.purple_500,
             alamatColorRes = R.color.white
         )
+        ProfileCard(
+            namaRes = R.string.tika,
+            noHpRes = R.string.noHp_2,
+            alamatRes = R.string.alamatTika,
+            bgColorRes = R.color.card_2_bg,
+            noHpColorRes = R.color.teal_700,
+            alamatColorRes = R.color.purple_200
+        )
     }
 }
