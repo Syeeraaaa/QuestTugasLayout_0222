@@ -137,6 +137,11 @@ fun ProfileCard(
                     fontFamily = namaFontFamily,
                     color = colorResource(R.color.white)
                 )
+                Text(
+                    text = stringResource(noHpRes),
+                    fontSize = dimensionResource(R.dimen.text_info).value.sp,
+                    color = colorResource(noHpColorRes)
+                )
             }
         }
     }
