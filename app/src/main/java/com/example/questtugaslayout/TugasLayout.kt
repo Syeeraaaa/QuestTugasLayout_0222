@@ -58,5 +58,7 @@ fun TugasLayout(modifier: Modifier = Modifier){
             noHpColorRes = R.color.teal_700,
             alamatColorRes = R.color.purple_200
         )
+        Spacer(modifier = Modifier.height(dimensionResource(R.dimen.card_spacing)))
+
     }
 }
