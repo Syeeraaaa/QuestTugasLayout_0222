@@ -2,13 +2,21 @@
     <string name="app_name">QuestTugasLayout</string>
     <string name="prodi">Teknologi Informasi</string>
     <string name="univ">Universitas Muhammadiyah Yogyakarta</string>
+
     <string name="syeera">Syeera Silvia Erby</string>
+    <string name="noHp_1">089123456</string>
     <string name="alamatsyeera">Bantul, Yogyakarta</string>
+
     <string name="tika">Tika</string>
+    <string name="noHp_2">089987654</string>
     <string name="alamatTika">Pleret, Bantul</string>
+
     <string name="haechan">Lee Haechan</string>
+    <string name="noHp_3">087564356</string>
     <string name="alamathaechan">Soul, Korea Selatan</string>
+
     <string name="Cikipi">Cikipi</string>
+    <string name="noHp_4">011122334</string>
     <string name="alamatcikipi">Kaliurang, Bantul</string>
 
 </resources>
