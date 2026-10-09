@@ -125,6 +125,19 @@ fun ProfileCard(
                     .size(dimensionResource(R.dimen.logo_size))
                     .padding(dimensionResource(R.dimen.logo_padding))
             )
+            Column(
+                modifier = Modifier
+                    .weight(1f)
+                    .padding(horizontal = dimensionResource(R.dimen.content_spacer))
+            ) {
+                Text(
+                    text = stringResource(namaRes),
+                    fontSize = dimensionResource(R.dimen.text_nama).value.sp,
+                    fontWeight = FontWeight.Bold,
+                    fontFamily = namaFontFamily,
+                    color = colorResource(R.color.white)
+                )
+            }
         }
     }
 }
