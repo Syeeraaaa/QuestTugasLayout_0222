@@ -142,6 +142,11 @@ fun ProfileCard(
                     fontSize = dimensionResource(R.dimen.text_info).value.sp,
                     color = colorResource(noHpColorRes)
                 )
+                Text(
+                    text = stringResource(alamatRes),
+                    fontSize = dimensionResource(R.dimen.text_info).value.sp,
+                    color = colorResource(alamatColorRes)
+                )
             }
         }
     }
