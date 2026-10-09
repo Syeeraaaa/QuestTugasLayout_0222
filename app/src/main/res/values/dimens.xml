@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="screen_top_padding">100dp</dimen>
+    <dimen name="header_spacer">25dp</dimen>
+    <dimen name="card_padding">12dp</dimen>
+    <dimen name="card_spacing">8dp</dimen>
+    <dimen name="logo_size">100dp</dimen>
+    <dimen name="logo_padding">5dp</dimen>
+    <dimen name="content_spacer">16dp</dimen>
+    <dimen name="text_prodi">30sp</dimen>
+    <dimen name="text_univ">22sp</dimen>
+    <dimen name="text_nama">26sp</dimen>
+    <dimen name="text_info">18sp</dimen>
+</resources>
